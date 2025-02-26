@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .knopka {
+         padding: 10px; 
+         background-color: rgb(215, 210, 210);
+         color: black;
+        }
+        .i{
+            font-size: 37px;
+            padding: 0px;
+            margin-bottom: -13px;
+        }
+        .lb{
+            position: absolute;
+            left: 150px;
+            width: 250px;
+        }
+        .p{
+            display:inline-block;
+            width: 400px;
+            overflow: hidden;
+        }
+       </style>
+</head>
+<body>
+    <section style="width: 600px;">
+    <form action="">
+        <h1 class="i">Форма заявки на работу в зоопарке</h1>
+        <p><i>Пожалуйста, заполните форму. Обязательные поля помечены*</i></p>
+        <fieldset>
+            <legend><b>Контактная информация</b></legend>
+            <p><label for="name">Имя*</label>
+            <input type="text" name="name" class="lb" required></p>
+            <p><label for="number">Телефон</label>
+            <input type="tel" name="number" class="lb"></p>
+            <p><label for="email">Email*</label>
+            <input type="tel" name="number" class="lb" required></p>
+        </fieldset>
+        <p></p>
+        <fieldset>
+            <legend><b>Персональная информация</b></legend>
+            <p><label for="age">Возраст*</label>
+            <input type="number" step="1" name="age" min=1  max=100 class="lb" required></p>
+            <p><label for="number">Пол</label>
+            <input type="text" list="gender" name="gender"  class="lb"></p> 
+            <div><label for="text" class="p">Перечислите<br>личные<br>качества</label>
+            <textarea name="text" cols="30" rows="4" class="lb"></textarea></div>
+        </fieldset>
+        <p></p>
+        <fieldset>
+            <legend><b>Выберите ваших любимых животных</b></legend>
+            <table border="0" width="500px">
+                <tr align="left">
+                    <td><p><input type="checkbox" name="zebra">Зебра</p></td>
+                    <td><p><input type="checkbox" name="koshak">Кошак</p></td>
+                    <td><p><input type="checkbox" name="anakonda">Анаконда</p></td>
+                    <td><p><input type="checkbox" name="human">Человек</p></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="slon">Слон</td>
+                    <td><input type="checkbox" name="antilopa">Антилопа</td>
+                    <td><input type="checkbox" name="golub">Голубь</td>
+                    <td><input type="checkbox" name="krab">Краб</td>
+                </tr>
+        </table>
+        </fieldset>
+    <p><input type="submit" class="knopka" value="Отправить информацию"></p>
+</form>
+<datalist id="gender">
+    <option value="Женщина"></option>
+    <option value="Мужчина"></option>
+</datalist>
+</section>
+</body>
+</html>
