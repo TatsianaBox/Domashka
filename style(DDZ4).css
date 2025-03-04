@@ -1,0 +1,16 @@
+.blue{
+    color: #0000F2;
+}
+.orange{
+    color: #FF7900;
+}
+.grey{
+    color: #666;
+}
+.sp{
+    width: auto;
+    text-decoration: none;
+    transform: scale(-1, 1); 
+    display: inline-block; 
+    margin-right: 2px;
+}
