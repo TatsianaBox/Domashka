@@ -1,0 +1,43 @@
+  
+span[class="red"]{
+    background: red;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+}
+span[class="green"]{
+    background: green;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    }
+span[class="blue"]{
+    background: blue;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+}   
+label[for="red"]{
+    color: red;
+    text-decoration: underline;
+    }
+label[for="green"]{
+    color: green;
+    text-decoration: underline;
+    }
+label[for="blue"]{
+    color: blue;
+    text-decoration: underline;
+    } 
+input[type="checkbox"]{
+    display: none;
+    }
+#red:checked ~ span[class="red"]{
+    display: none;
+   }
+#green:checked ~ span[class="green"]{
+    display: none;
+    }       
+#blue:checked ~ span[class="blue"]{
+    display: none;
+    } 
