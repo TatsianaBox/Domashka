@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+.orange{
+    width: 250px;
+    height: 420px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    margin: auto;
+    font-family: "Fira Sans", sans-serif;
+}
+.BV{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px 0;
+}
+.IG{
+    color: rgb #4b4b4b;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.center{
+    color: #4b4b4b;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+.center sup{
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+    left: -2px;
+}
+.center sub{
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+}
+ul{
+    list-style-type: none; 
+    width: 90%;
+    margin: 20px auto;
+    padding: 0;
+}
+li{
+    padding: 4px 0 4px 55px;
+    margin-bottom: 5px;
+    color: #89898b;
+    background: url('../lesson5/arrow.png') no-repeat;
+    background-position: 25px 4px;
+
+}
+li:nth-child(odd){
+    background-color: #EDF5FD;
+}
+li:nth-child(even){
+    background-color: #F5F5F6;
+}
+.ET{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    margin-bottom: 25px;
+    box-shadow: 0px 3px rgb(203,110,55);
+}
+.ETO{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    background-color:  #2F70A7;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px  #184D7A;
+}
+.grey{
+    width: 250px;
+    border: 3px solid #F5F6F6;
+    border-radius: 5px;
+    margin: auto;
+    font-family: "Fira Sans", sans-serif;
+}
+.grey_one{
+    width: 250px;
+    border: 3px solid #F5F6F6;
+    border-radius: 5px;
+    margin: auto;
+    font-family: "Fira Sans", sans-serif;
+}
+.st{
+    background-color: #2AC2D5;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px 0;
+}
+.ULTI{
+    background-color: #14B89A;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px 0;
+}
+section{
+    display:flex;
+justify-content: center;
+align-items: center;
+position: relative;
+height: auto;
+}
+div{
+    position: absolute;
+}
+.grey{
+top: 20px;
+left:0;
+right: 500px;
+z-index: -1;
+}
+.grey_one{
+    top: 20px;
+    right: 0;
+    left: 500px;
+    z-index: -1;
+    }
+.orange{
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    z-index: 3;
+    background: white;
+}
+
